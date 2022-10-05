@@ -1,0 +1,7 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.5.0;
+contract tech4dev{
+    //first method which is require();//
+    function felicia (uint _x)public pure{
+        require(_x <10,  'it is above 10');
+    }
